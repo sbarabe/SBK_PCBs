@@ -17,3 +17,13 @@ PCBs are available upon request.
 To order or inquire, contact us at **smartbuildskits@gmail.com**.
 
 > ⚠️ We are working to make them available on a commercial platform — stay tuned!
+
+## License
+
+The schematic diagrams and mechanical board outlines shared in this repository are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+You are free to copy and adapt the materials for non-commercial purposes, provided that proper credit is given.
+
+See the [LICENSE](LICENSE) file for full legal terms.
+
+
