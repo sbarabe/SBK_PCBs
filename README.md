@@ -17,7 +17,7 @@ Bare, partially, and fully assembled boards are available on the [**SBK Tindie S
 If you can't find the version or configuration you're looking for, please reach out directly:
 📧 **smartbuildskits@gmail.com**
 
-> ⚠️ We’re gradually expanding availability on Tindie and other platforms — stay tuned!
+> ⚠️ We’re gradually expanding availability on Tindie — stay tuned!
 
 ---
 
