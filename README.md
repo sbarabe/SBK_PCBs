@@ -1,29 +1,31 @@
 # SBK_BarMeter_PCBs
 
-Documentation and resources for the SBK BarMeter series and their companion driver boards, including:
+Documentation and resources for the **SBK BarMeter** series and their companion driver boards, including:
 
-- **SBK BarMeter 24**
-- **SBK BarMeter 40**
-- **SBK BarDrive 64** – MAX7219/MAX7221-based LED driver backpack for ##SBK BarMeter 24## and ##SBK BarMeter 40##
-- **SBK BarMeter 28** - For BL(Z)-3005xx type linear led display
-- **SBK BarDrive SK28** - MAX7219/MAX7221-based LED driver backpack for common cathode ##SBK BarMeter 28## with BL(Z)-3005SK linear led display
-- **SBK BarDrive SA28** - MAX7219/MAX7221-based LED driver backpack for common anode ##SBK BarMeter 28## with BL(Z)-3005SA linear led display
+- **SBK BarMeter SA28/SK28** – For BL(Z)-3005SxA0Y linear LED bargraph displays  
+- **SBK BarDriveHT 28** – HT16K33 20-SOP based LED driver backpack for **SBK BarMeter SA28/SK28**  
+- **SBK BarDriveMAX 28** – MAX7219-based LED driver backpack for **SBK BarMeter SA28/SK28**
 
-These PCBs are designed for modular, animated LED bar graphs and indicators for DIY electronics, props, dashboards, and more.
+These PCBs are designed for modular, animated LED bargraphs and indicators for DIY electronics, props, dashboards, meters, and more.
 
-## Availability
+---
 
-PCBs are available upon request.  
-To order or inquire, contact us at **smartbuildskits@gmail.com**.
+## 📦 Availability
 
-> ⚠️ We are working to make them available on a commercial platform — stay tuned!
+Bare, partially, and fully assembled boards are available on the [**SBK Tindie Store**](https://www.tindie.com/stores/smartbuildskits/).
 
-## License
+If you can't find the version or configuration you're looking for, please reach out directly:
+📧 **smartbuildskits@gmail.com**
 
-The schematic diagrams and mechanical board outlines shared in this repository are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+> ⚠️ We’re gradually expanding availability on Tindie and other platforms — stay tuned!
 
-You are free to copy and adapt the materials for non-commercial purposes, provided that proper credit is given.
+---
+
+## 📝 License
+
+Schematic diagrams and mechanical board outlines shared in this repository are licensed under the  
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+You are free to copy and adapt the materials for non-commercial purposes, provided that appropriate credit is given.
 
 See the [LICENSE](LICENSE) file for full legal terms.
-
-
