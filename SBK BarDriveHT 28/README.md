@@ -67,7 +67,7 @@ Use the STEP models and dimensioned drawing to check mounting positions and encl
 
 ## Availability and support
 
-SBK BarDriveHT 28 boards can be provided in small batches on demand. For availability, pricing, assembly options, or custom quantities, please contact:
+SBK BarDriveHT 28 boards are available on demand, per unit or in small batches, either individually or bundled with a compatible SBK BarMeter PCB. For availability, pricing, assembly options, or custom quantities, please contact:
 
 **[SmartBuildsKits@gmail.com](mailto:SmartBuildsKits@gmail.com)**
 
