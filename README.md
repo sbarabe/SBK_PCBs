@@ -1,31 +1,45 @@
-# SBK_BarMeter_PCBs
+# SBK BarMeter PCBs
 
-Documentation and resources for the **SBK BarMeter** series and their companion driver boards, including:
+Documentation and mechanical resources for the **SBK BarMeter** LED bargraph boards and their companion **SBK BarDrive** driver backpacks.
 
-- **SBK BarMeter SA28/SK28** – For BL(Z)-3005SxA0Y linear LED bargraph displays  
-- **SBK BarDriveHT 28** – HT16K33 20-SOP based LED driver backpack for **SBK BarMeter SA28/SK28**  
-- **SBK BarDriveMAX 28** – MAX7219-based LED driver backpack for **SBK BarMeter SA28/SK28**
+These boards support modular indicators for DIY electronics, animated props, dashboards, meters, and other projects.
 
-These PCBs are designed for modular, animated LED bargraphs and indicators for DIY electronics, props, dashboards, meters, and more.
+## Current boards
 
----
+| Product | Purpose | Connection / variant |
+| --- | --- | --- |
+| [SBK BarMeter Sx28](SBK%20BarMeter%20Sx28/) | 28-segment LED display PCBs | SA28 common-anode and SK28 common-cathode versions |
+| [SBK BarDriveHT 28](SBK%20BarDriveHT%2028/) | Driver backpack for BarMeter SA28/SK28 | HT16K33A-based I²C interface |
+| [SBK BarDriveMAX 28](SBK%20BarDriveMAX%2028/) | Driver backpack for BarMeter SA28/SK28 | MAX7219/MAX7221-based serial interface with chaining connections |
 
-## 📦 Availability
+![BarMeter SK28 with a BarDriveHT 28 backpack](SBK%20BarMeter%20Sx28/Images/assembled-with-bardriveht-display-side.jpg)
 
-Bare, partially, and fully assembled boards are available on the [**SBK Tindie Store**](https://www.tindie.com/stores/smartbuildskits/).
+*Example display and driver assembly. See each product README for compatibility, wiring, photos, and available files.*
 
-If you can't find the version or configuration you're looking for, please reach out directly:
-📧 **smartbuildskits@gmail.com**
+## Repository layout
 
-> ⚠️ We’re gradually expanding availability on Tindie — stay tuned!
+Each current product folder contains:
 
----
+- **README.md** — product overview, connections or assembly guidance, and file links.
+- **docs/** — specification drawings and manufacturer datasheets.
+- **models/** — STEP models and, where available, STL assemblies.
+- **Images/** — photographs and renders.
+- **videos/** — preview video where available (BarDriveMAX 28).
 
-## 📝 License
+Earlier revisions are preserved in their existing layout under [Deprecated](Deprecated/). Check revision-specific wiring and dimensions when working with an older board.
 
-Schematic diagrams and mechanical board outlines shared in this repository are licensed under the  
-**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+The repository provides PDF documentation and mechanical models. Native PCB design files, Gerber fabrication files, and firmware examples are not currently included.
 
-You are free to copy and adapt the materials for non-commercial purposes, provided that appropriate credit is given.
+## Availability and support
 
-See the [LICENSE](LICENSE) file for full legal terms.
+SBK BarMeter and BarDrive boards are available on demand, per unit or in small batches, either individually or as compatible **BarMeter + BarDrive bundles**. For availability, pricing, bare-board or assembled options, or custom quantities, please contact:
+
+**[SmartBuildsKits@gmail.com](mailto:SmartBuildsKits@gmail.com)**
+
+Boards are intended for hobbyists, educators, prototypes, and small-scale projects. Availability depends on component stock and production capacity.
+
+## License
+
+Schematic diagrams and mechanical board outlines shared in this repository are licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+
+You may copy and adapt these materials for non-commercial purposes with appropriate attribution. See [LICENSE](LICENSE) for the terms and link to the full license. Included manufacturer datasheets remain subject to their publishers' terms.
