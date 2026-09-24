@@ -67,9 +67,11 @@ Use the STEP models and dimensioned drawing to check mounting positions and encl
 
 ## Availability and support
 
-Visit the [Smart Builds & Kits Tindie store](https://www.tindie.com/stores/smartbuildskits/) for available boards and assembly options.
+SBK BarDriveHT 28 boards can be provided in small batches on demand. For availability, pricing, assembly options, or custom quantities, please contact:
 
-For questions or configurations not listed in the store, contact **[smartbuildskits@gmail.com](mailto:smartbuildskits@gmail.com)**.
+**[SmartBuildsKits@gmail.com](mailto:SmartBuildsKits@gmail.com)**
+
+Boards are intended for hobbyists, educators, prototypes, and small-scale projects. Availability depends on component stock and production capacity.
 
 ## License
 
