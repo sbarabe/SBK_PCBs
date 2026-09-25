@@ -1,34 +1,22 @@
-# SBK BarMeter PCBs
+# SBK PCB directory
 
-Documentation and mechanical resources for the **SBK BarMeter** LED bargraph boards and their companion **SBK BarDrive** driver backpacks.
+The current SBK BarMeter and BarDrive projects have moved into separate repositories. This repository remains a directory of those projects and preserves the **Deprecated** designs in their existing layout.
 
-These boards support modular indicators for DIY electronics, animated props, dashboards, meters, and other projects.
+## Current repositories
 
-## Current boards
-
-| Product | Purpose | Connection / variant |
+| Project | Repository | Description |
 | --- | --- | --- |
-| [SBK BarMeter Sx28](SBK%20BarMeter%20Sx28/) | 28-segment LED display PCBs | SA28 common-anode and SK28 common-cathode versions |
-| [SBK BarDriveHT 28](SBK%20BarDriveHT%2028/) | Driver backpack for BarMeter SA28/SK28 | HT16K33A-based I²C interface |
-| [SBK BarDriveMAX 28](SBK%20BarDriveMAX%2028/) | Driver backpack for BarMeter SA28/SK28 | MAX7219/MAX7221-based serial interface with chaining connections |
+| **SBK BarDriveHT 28** | [SBK_BarDrive_HT28](https://github.com/sbarabe/SBK_BarDrive_HT28) | HT16K33A-based I²C LED driver backpack |
+| **SBK BarDriveMAX 28** | [SBK_BarDrive_MAX28](https://github.com/sbarabe/SBK_BarDrive_MAX28) | MAX7219/MAX7221-based serial LED driver backpack |
+| **SBK BarMeter Sx28** | [SBK_BarMeter_Sx28](https://github.com/sbarabe/SBK_BarMeter_Sx28) | SA28 common-anode and SK28 common-cathode 28-segment LED display PCBs |
 
-![BarMeter SK28 with a BarDriveHT 28 backpack](SBK%20BarMeter%20Sx28/Images/assembled-with-bardriveht-display-side.jpg)
+Each new repository contains its product documentation, PDF references, mechanical models, images, and any available preview videos. Use those repositories for current files and future updates.
 
-*Example display and driver assembly. See each product README for compatibility, wiring, photos, and available files.*
+## What remains here
 
-## Repository layout
-
-Each current product folder contains:
-
-- **README.md** — product overview, connections or assembly guidance, and file links.
-- **docs/** — specification drawings and manufacturer datasheets.
-- **models/** — STEP models and, where available, STL assemblies.
-- **Images/** — photographs and renders.
-- **videos/** — preview video where available (BarDriveMAX 28).
-
-Earlier revisions are preserved in their existing layout under [Deprecated](Deprecated/). Check revision-specific wiring and dimensions when working with an older board.
-
-The repository provides PDF documentation and mechanical models. Native PCB design files, Gerber fabrication files, and firmware examples are not currently included.
+- [SBK BarDriveHT 28](SBK%20BarDriveHT%2028/), [SBK BarDriveMAX 28](SBK%20BarDriveMAX%2028/), and [SBK BarMeter Sx28](SBK%20BarMeter%20Sx28/) retain README files linking to their new repositories.
+- [Deprecated](Deprecated/) retains the earlier designs and files in their original layout.
+- Existing Git history preserves previous versions of the files moved to the new repositories.
 
 ## Availability and support
 
@@ -42,4 +30,4 @@ Boards are intended for hobbyists, educators, prototypes, and small-scale projec
 
 Schematic diagrams and mechanical board outlines shared in this repository are licensed under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-You may copy and adapt these materials for non-commercial purposes with appropriate attribution. See [LICENSE](LICENSE) for the terms and link to the full license. Included manufacturer datasheets remain subject to their publishers' terms.
+You may copy and adapt these materials for non-commercial purposes with appropriate attribution. See [LICENSE](LICENSE) for the terms and link to the full license. Included manufacturer datasheets remain subject to their publishers' terms. Each new product repository includes a copy of the license.
